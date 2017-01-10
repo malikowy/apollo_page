@@ -1,0 +1,178 @@
+body {
+    max-width   : 1600px;
+    margin-left : auto;
+    margin-right: auto;
+}
+
+header {
+    .drawer-text {
+        position : relative;
+        right    : 90px;
+        top      : 28px;
+        font-size: 1.8em;
+        margin   : 0;
+    }
+}
+
+section {
+    height      : 750px;
+    padding-top : 50px;
+    margin-left : 50px;
+    margin-right: 50px;
+    overflow    : hidden;
+
+    .home__container {
+        height          : 750px;
+        background-image: url("../img/bg-1.png");
+        background-size : cover;
+        overflow        : hidden;
+
+        &::after {
+            color       : #000;
+            content     : attr(data-bg-text);
+            font-size   : 1050px;
+            line-height : 0;
+            position    : relative;
+            left        : 25px;
+            top         : 380px;
+            opacity     : 0.1;
+            font-stretch: extra-condensed;
+        }
+
+        .home__text {
+            position: absolute;
+            width   : 500px;
+            height  : 200px;
+            top     : 310px;
+            left    : 275px;
+        }
+    }
+
+    .about__container {
+        height          : 750px;
+        background-color: rgb(239,239,239);
+        overflow        : hidden;
+
+        &::after {
+            color       : #000;
+            content     : attr(data-bg-text);
+            font-size   : 1050px;
+            line-height : 0;
+            position    : relative;
+            left        : 25px;
+            top         : 380px;
+            opacity     : 0.1;
+            font-stretch: extra-condensed;
+        }
+    }
+
+    .portfolio__container--first {
+        height          : 750px;
+        background-color: rgb(239,239,239);
+        overflow        : hidden;
+
+        &::after {
+            color       : #000;
+            content     : attr(data-bg-text);
+            font-size   : 1050px;
+            line-height : 0;
+            position    : relative;
+            left        : 25px;
+            top         : -370px;
+            opacity     : 0.1;
+            font-stretch: extra-condensed;
+        }
+
+        .slick-gallery {
+            width       : 98%;
+            margin-left : auto;
+            margin-right: auto;
+        }
+    }
+
+    .portfolio__container--second {
+        height          : 750px;
+        background-color: rgb(239,239,239);
+        overflow        : hidden;
+
+        &::after {
+            color       : #000;
+            content     : attr(data-bg-text);
+            font-size   : 1050px;
+            line-height : 0;
+            position    : relative;
+            left        : 25px;
+            top         : 380px;
+            opacity     : 0.1;
+            font-stretch: extra-condensed;
+        }
+    }
+
+    .portfolio__container--third {
+        height          : 750px;
+        background-color: rgb(239,239,239);
+        overflow        : hidden;
+
+        &::after {
+            color       : #000;
+            content     : attr(data-bg-text);
+            font-size   : 1050px;
+            line-height : 0;
+            position    : relative;
+            left        : 25px;
+            top         : -33px;
+            opacity     : 0.1;
+            font-stretch: extra-condensed;
+        }
+
+        .slick-gallery-center {
+            width       : 98%;
+            margin-left : auto;
+            margin-right: auto;
+            top         : 140px;
+
+            .slick-active {
+                padding-top       : 50px;
+                height            : 90%;
+                -webkit-transition: all 0.5s ease-out;
+                transition        : all 0.5s ease-out;
+                -webkit-transform : scale(0.9);
+                transform         : scale(0.9);
+            }
+
+            .slick-center {
+                padding-top       : 0;
+                -webkit-transition: all 1s ease-out;
+                transition        : all 1s ease-out;
+                -webkit-transform : scale(1);
+                transform         : scale(1);
+            }
+        }
+    }
+}
+
+footer {
+    height       : 750px;
+    padding-top  : 50px;
+    margin-left  : 50px;
+    margin-right : 50px;
+    margin-bottom: 50px;
+
+    .contact__container {
+        height          : 750px;
+        background-color: rgb(239,239,239);
+        overflow        : hidden;
+
+        &::after {
+            color       : #000;
+            content     : attr(data-bg-text);
+            font-size   : 1050px;
+            line-height : 0;
+            position    : relative;
+            left        : 25px;
+            top         : 380px;
+            opacity     : 0.1;
+            font-stretch: extra-condensed;
+        }
+    }
+}
