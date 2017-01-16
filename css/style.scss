@@ -26,6 +26,7 @@ section {
         background-image: url("../img/bg-1.png");
         background-size : cover;
         overflow        : hidden;
+        position        : relative;
 
         &::after {
             color       : #000;
@@ -34,17 +35,18 @@ section {
             line-height : 0;
             position    : relative;
             left        : 25px;
-            top         : 380px;
+            top         : 158px;
             opacity     : 0.1;
             font-stretch: extra-condensed;
+            display     : block;
         }
 
         .home__text {
-            position: absolute;
+            position: relative;
             width   : 500px;
             height  : 200px;
-            top     : 310px;
-            left    : 275px;
+            top     : 234px;
+            left    : 180px;
         }
     }
 
@@ -52,6 +54,7 @@ section {
         height          : 750px;
         background-color: rgb(239,239,239);
         overflow        : hidden;
+        position        : relative;
 
         &::after {
             color       : #000;
@@ -63,6 +66,20 @@ section {
             top         : 380px;
             opacity     : 0.1;
             font-stretch: extra-condensed;
+            display     : block;
+        }
+
+        .about__container__content {
+            position    : absolute;
+            width       : 1240px;
+            height      : 530px;
+            padding-left: 2%;
+            padding-top : 6%;
+            z-index     : 1;
+
+            img {
+                float: left;
+            }
         }
     }
 
@@ -70,6 +87,7 @@ section {
         height          : 750px;
         background-color: rgb(239,239,239);
         overflow        : hidden;
+        position        : relative;
 
         &::after {
             color       : #000;
@@ -81,10 +99,11 @@ section {
             top         : -370px;
             opacity     : 0.1;
             font-stretch: extra-condensed;
+            display     : block;
         }
 
         .slick-gallery {
-            width       : 98%;
+            width       : 99%;
             margin-left : auto;
             margin-right: auto;
         }
@@ -94,6 +113,7 @@ section {
         height          : 750px;
         background-color: rgb(239,239,239);
         overflow        : hidden;
+        position        : relative;
 
         &::after {
             color       : #000;
@@ -105,6 +125,7 @@ section {
             top         : 380px;
             opacity     : 0.1;
             font-stretch: extra-condensed;
+            display     : block;
         }
     }
 
@@ -112,6 +133,7 @@ section {
         height          : 750px;
         background-color: rgb(239,239,239);
         overflow        : hidden;
+        position        : relative;
 
         &::after {
             color       : #000;
@@ -123,6 +145,7 @@ section {
             top         : -33px;
             opacity     : 0.1;
             font-stretch: extra-condensed;
+            display     : block;
         }
 
         .slick-gallery-center {
@@ -162,6 +185,7 @@ footer {
         height          : 750px;
         background-color: rgb(239,239,239);
         overflow        : hidden;
+        position        : relative;
 
         &::after {
             color       : #000;
@@ -173,6 +197,7 @@ footer {
             top         : 380px;
             opacity     : 0.1;
             font-stretch: extra-condensed;
+            display     : block;
         }
     }
 }

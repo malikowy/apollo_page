@@ -63,7 +63,7 @@
 }
 
 .slick-prev {
-    left: -25px;
+    left: 0;
     z-index: 2;
 }
 
@@ -73,7 +73,7 @@
 }
 
 .slick-prev:before {
-    content: '←';
+    content: url('../img/arrow-prev.png');
 }
 
 [dir='rtl'] .slick-prev:before {
@@ -81,7 +81,7 @@
 }
 
 .slick-next {
-    right: -25px;
+    right: 0;
 }
 
 [dir='rtl'] .slick-next {
@@ -90,7 +90,7 @@
 }
 
 .slick-next:before {
-    content: '→';
+    content: url('../img/arrow-next.png');
 }
 
 [dir='rtl'] .slick-next:before {
